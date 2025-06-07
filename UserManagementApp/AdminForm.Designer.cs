@@ -30,7 +30,6 @@
         {
             this.btnResetPassword = new System.Windows.Forms.Button();
             this.lstUsers = new System.Windows.Forms.ListBox();
-            this.lblUsers = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnResetPassword
@@ -51,28 +50,16 @@
             this.lstUsers.Size = new System.Drawing.Size(426, 225);
             this.lstUsers.TabIndex = 1;
             // 
-            // lblUsers
-            // 
-            this.lblUsers.AutoSize = true;
-            this.lblUsers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblUsers.Location = new System.Drawing.Point(157, 53);
-            this.lblUsers.Name = "lblUsers";
-            this.lblUsers.Size = new System.Drawing.Size(138, 20);
-            this.lblUsers.TabIndex = 2;
-            this.lblUsers.Text = "Seznam uživatelů:";
-            // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblUsers);
             this.Controls.Add(this.lstUsers);
             this.Controls.Add(this.btnResetPassword);
             this.Name = "AdminForm";
             this.Text = "AdminForm";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -80,6 +67,5 @@
 
         private System.Windows.Forms.Button btnResetPassword;
         private System.Windows.Forms.ListBox lstUsers;
-        private System.Windows.Forms.Label lblUsers;
     }
 }
