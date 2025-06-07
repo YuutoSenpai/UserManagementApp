@@ -14,4 +14,4 @@ Passwd: admin123
 
 
 
-If you change passwords a forget them, delete users.xml in bin/debug
+If you changed passwords and forgot them, delete users.xml in bin/debug and reload the program.
